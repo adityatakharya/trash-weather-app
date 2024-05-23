@@ -1,0 +1,35 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #212121; /* Dark background */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.App {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.App-header {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #4CAF50, #007bff); /* Gradient background */
+    -webkit-background-clip: text; /* Clip text to background */
+    -webkit-text-fill-color: transparent; /* Hide original text */
+}
+
+.App-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    text-align: center;
+}
