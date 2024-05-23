@@ -17,7 +17,7 @@ function MainScreen() {
     return (
         <>
         <div className="container">
-        {weatherState.fetchedData?.current?.temp_c && <h1>{weatherState.fetchedData?.current?.temp_c} C</h1>}
+        {weatherState.fetchedData?.current?.temp_c && <h1>{weatherState.fetchedData?.current?.temp_c} °C</h1>}
             <input
                 type="text"
                 placeholder="Type Your City"
